@@ -1,14 +1,8 @@
 package controller
 
-import (
-	"fmt"
-
-	"github.com/azhar-azad/practice/game_against_computer_v2/service"
-)
+import "github.com/azhar-azad/practice/game_against_computer_v2/service"
 
 func RunGame() {
-	fmt.Println("controller - rungame")
-
 	service.ShowSinglePlayerGameRules()
 
 	difficultyChoice := service.GetDifficultyChoice()

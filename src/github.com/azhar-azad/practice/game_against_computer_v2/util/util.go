@@ -20,6 +20,7 @@ func GetIntegerInput(msg string) int {
 	}
 }
 
+// Returns 1 or 2 randomly
 func GetRandomChoice() int {
 	source := rand.NewSource(time.Now().UnixNano())
 	randomizer := rand.New(source)
